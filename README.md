@@ -18,3 +18,18 @@ Incluye reporte de bugs simulados para práctica QA.
 ## 📂 Archivos
 - test-cases.md
 - bug-reports.md
+
+## 🤖 Automatización
+
+Se implementaron pruebas automatizadas utilizando Cypress.
+
+### Tests incluidos:
+- Login exitoso
+- Login inválido
+
+### ▶️ Cómo ejecutar
+1. Instalar dependencias:
+   npm install
+
+2. Abrir Cypress:
+   npx cypress open
