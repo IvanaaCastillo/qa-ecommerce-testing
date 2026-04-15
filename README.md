@@ -33,3 +33,14 @@ Se implementaron pruebas automatizadas utilizando Cypress.
 
 2. Abrir Cypress:
    npx cypress open
+
+## ⚙️ CI/CD
+
+Se implementó integración continua utilizando GitHub Actions.
+
+Cada vez que se realiza un push al repositorio:
+- Se instalan dependencias automáticamente
+- Se ejecutan los tests de Cypress
+- Se valida el correcto funcionamiento del sistema
+
+Esto permite detectar errores de forma temprana.
