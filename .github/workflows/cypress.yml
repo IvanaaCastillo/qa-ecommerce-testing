@@ -12,13 +12,7 @@ jobs:
       - name: Checkout del repositorio
         uses: actions/checkout@v4
 
-      - name: Configurar Node.js
-        uses: actions/setup-node@v4
+      - name: Run Cypress tests
+        uses: cypress-io/github-action@v6
         with:
-          node-version: '18'
-
-      - name: Instalar dependencias
-        run: npm install
-
-      - name: Ejecutar Cypress
-        run: npx cypress run
+          install: true
